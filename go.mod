@@ -5,18 +5,18 @@ go 1.22.0
 toolchain go1.23.2
 
 require (
-	buf.build/gen/go/bufbuild/bufplugin/protocolbuffers/go v1.34.2-20240928190436-5e8abcfd7a7e.2
-	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.34.2-20240920164238-5a7b106cbb87.2
+	buf.build/gen/go/bufbuild/bufplugin/protocolbuffers/go v1.35.1-20241023225133-42bdb4b67625.1
+	buf.build/gen/go/bufbuild/protovalidate/protocolbuffers/go v1.35.1-20240920164238-5a7b106cbb87.1
 	buf.build/gen/go/bufbuild/registry/connectrpc/go v1.17.0-20241007185750-f2282fe532fe.1
-	buf.build/gen/go/bufbuild/registry/protocolbuffers/go v1.34.2-20241007185750-f2282fe532fe.2
-	buf.build/go/bufplugin v0.5.0
+	buf.build/gen/go/bufbuild/registry/protocolbuffers/go v1.35.1-20241007185750-f2282fe532fe.1
+	buf.build/go/bufplugin v0.6.0
 	buf.build/go/protoyaml v0.2.0
 	buf.build/go/spdx v0.2.0
 	connectrpc.com/connect v1.17.0
 	connectrpc.com/otelconnect v0.7.1
 	github.com/bufbuild/protocompile v0.14.1
 	github.com/bufbuild/protoplugin v0.0.0-20240911180120-7bb73e41a54a
-	github.com/bufbuild/protovalidate-go v0.7.2
+	github.com/bufbuild/protovalidate-go v0.7.3-0.20241015162221-1446f1e1d576
 	github.com/docker/docker v27.3.1+incompatible
 	github.com/go-chi/chi/v5 v5.1.0
 	github.com/gofrs/flock v0.12.1
@@ -41,7 +41,7 @@ require (
 	go.uber.org/atomic v1.11.0
 	go.uber.org/multierr v1.11.0
 	go.uber.org/zap v1.27.0
-	go.uber.org/zap/exp v0.1.1-0.20240913022758-ede8e1888f83
+	go.uber.org/zap/exp v0.3.0
 	golang.org/x/crypto v0.28.0
 	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
 	golang.org/x/mod v0.21.0
@@ -49,7 +49,7 @@ require (
 	golang.org/x/sync v0.8.0
 	golang.org/x/term v0.25.0
 	golang.org/x/tools v0.26.0
-	google.golang.org/protobuf v1.34.3-0.20240906163944-03df6c145d96
+	google.golang.org/protobuf v1.35.1
 	gopkg.in/yaml.v3 v3.0.1
 	pluginrpc.com/pluginrpc v0.5.0
 )
